@@ -1,0 +1,26 @@
+{
+  "name": "@alura/web-public",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint \"./**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "styled-components": "6.1.13",
+    "@alura/design-system": "*",
+    "@alura/utils": "*",
+    "next": "^15.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "nextjs-monorepo"]
+	path = nextjs-monorepo
+	url = https://github.com/tenoriobn/nextjs-monorepo.git
