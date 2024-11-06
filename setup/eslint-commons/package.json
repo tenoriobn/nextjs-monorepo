@@ -6,6 +6,9 @@
   "files": [
     "base.js"
   ],
+  "scripts": {
+    "lint": "echo 'Not necessary'"
+  },
   "dependencies": {
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "8.5.0",
