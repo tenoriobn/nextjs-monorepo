@@ -1,1 +1,1 @@
-module.exports = require('@alura/eslint-commons/base')
+module.exports = require("@alura/eslint-commons/base");
