@@ -8,12 +8,13 @@
     ]
   },
   "dependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "27.5.0",
+    "@types/node": "^22.8.7",
+    "@types/react": "^18.3.12",
+    "@types/styled-components": "5.1.34",
     "eslint": "8.14.0",
     "prettier": "2.6.2",
-    "@types/styled-components": "5.1.34",
-    "@types/node": "^22.8.7",
-    "@types/jest": "27.5.0",
-    "@types/react": "^18.3.12",
     "typescript": "4.5.5"
   },
   "scripts": {
@@ -24,6 +25,7 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "design-system": "yarn workspace @alura/design-system",
+    "test:design-system": "yarn design-system test",
     "utils": "yarn workspace @alura/utils",
     "test:utils": "yarn utils test"
   }
