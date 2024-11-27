@@ -4,5 +4,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ]
+  ],
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true
+  }
 }
